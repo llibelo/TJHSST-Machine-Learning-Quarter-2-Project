@@ -3,4 +3,4 @@ Traditional random forest (RF) algorithms are powerful, but suffer from two crit
 To address these limitations, AWL-RF integrates feature selection directly into the forest’s structure by weighting trees based on the aggregate local predictive power of their selected attributes. This approach leverages metrics like Information Gain, Gain Ratio, and Pearson Correlation to guide both feature selection and tree weighting, aiming to reduce redundancy and enhance accuracy.
 
 
-To use our code, upload a train.csv and test.csv, and 
+To use our code, upload a file to the same folder as split.py, run the code, and input the file name. split.py will split your file with an 80-20 train test split. Our train.csv and test.csv files that we used for testing are also provided. To run our adaptive_local_weighted_random_forest.py code on your files, upload the train.csv and test.csv files to the same folder, and run the code.
